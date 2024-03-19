@@ -18,7 +18,7 @@ int main () {
 
 
     Figura:: Figura(){
-       this -> a=0;
+       this -> b=0;
        this ->  h=0;
         this -> a=0.0;
 
@@ -32,11 +32,11 @@ int main () {
      }
 
      void Figura :: setArea(float a){
-
+     this -> a = a;
 
      }
 
      float Figura:: getArea(){
-       this ->  return a;
+       return this-> a;
 
      }
